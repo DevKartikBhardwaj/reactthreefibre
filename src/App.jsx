@@ -5,7 +5,7 @@ import { Canvas } from "@react-three/fiber";
 function App() {
   return (
     <>
-      <Canvas className="main-canvas">
+      <Canvas className="main-canvas" shadows>
         <Suspense fallback={null}>
           <Three />
         </Suspense>
